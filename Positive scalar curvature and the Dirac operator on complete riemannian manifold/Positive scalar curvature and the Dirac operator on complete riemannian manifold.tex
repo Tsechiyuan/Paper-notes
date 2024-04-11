@@ -9,6 +9,7 @@
 \usepackage{fancyhdr}
 \usepackage{fourier-orns}
 \usepackage{quiver}
+\setcounter{section}{-1}
 
 %定义命令
 \def\N{\mathbb{N}}
@@ -39,6 +40,10 @@
 \author{Notes Author:Tsechi/Tseyu}
 \begin{document}
 \maketitle
+\tableofcontents
+\section{Some prerequisites of this note}
+\subsection{Schwartz kernel}
+
 \section{Generalized Dirac Operators on a Complete Manifold}
 
 Let $\mathrm{Cl}(X)$ denote the \textbf{Clifford bundle} of X. This is the bundle over $X$ whose fiber at a point $x \in X$ is the Clifford algebra $\mathrm{Cl}(T_x X)$.For the definition of Clifford algebra, we recommand the  \href{https://en.wikipedia.org/wiki/Clifford_algebra}{website}.
@@ -48,4 +53,6 @@ Furthermore, the riemannian metric and connection extend to $\mathrm{Cl}(X)$ wit
     \nabla(\varphi \cdot \psi)=(\nabla \varphi)\cdot \psi+\varphi \cdot (\nabla \psi)
 \end{equation}
 for all sections $\varphi,\psi \in \Gamma(\mathrm{Cl}(X))$.
+
+
 \end{document}
